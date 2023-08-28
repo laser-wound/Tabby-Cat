@@ -15,6 +15,15 @@
 		51F82C292A9AD0EC0075A8A3 /* CatImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F82C282A9AD0EC0075A8A3 /* CatImagesView.swift */; };
 		51F82C2B2A9AD0FB0075A8A3 /* CatBounceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F82C2A2A9AD0FB0075A8A3 /* CatBounceView.swift */; };
 		51F82C2D2A9AD1370075A8A3 /* CatGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F82C2C2A9AD1370075A8A3 /* CatGalleryView.swift */; };
+		51F82C2F2A9AD38F0075A8A3 /* CatFactsManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F82C2E2A9AD38F0075A8A3 /* CatFactsManger.swift */; };
+		51F82C312A9AD8950075A8A3 /* CatFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F82C302A9AD8950075A8A3 /* CatFact.swift */; };
+		51F82C342A9AE1200075A8A3 /* Subsonic in Frameworks */ = {isa = PBXBuildFile; productRef = 51F82C332A9AE1200075A8A3 /* Subsonic */; };
+		51F82C362A9AE20D0075A8A3 /* MEOW.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 51F82C352A9AE20D0075A8A3 /* MEOW.m4a */; };
+		51F82C582A9AE97C0075A8A3 /* CatBounceScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51F82C572A9AE97C0075A8A3 /* CatBounceScreen.storyboard */; };
+		51F82C5A2A9AE9C50075A8A3 /* CatBounceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F82C592A9AE9C50075A8A3 /* CatBounceViewController.swift */; };
+		51F82C5C2A9C443C0075A8A3 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 51F82C5B2A9C443C0075A8A3 /* MobileNetV2.mlmodel */; };
+		51F82C692A9C45BF0075A8A3 /* CatDetectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F82C682A9C45BF0075A8A3 /* CatDetectionView.swift */; };
+		51F82C6B2A9C48640075A8A3 /* CatDetectionManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F82C6A2A9C48640075A8A3 /* CatDetectionManger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +36,14 @@
 		51F82C282A9AD0EC0075A8A3 /* CatImagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatImagesView.swift; sourceTree = "<group>"; };
 		51F82C2A2A9AD0FB0075A8A3 /* CatBounceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatBounceView.swift; sourceTree = "<group>"; };
 		51F82C2C2A9AD1370075A8A3 /* CatGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatGalleryView.swift; sourceTree = "<group>"; };
+		51F82C2E2A9AD38F0075A8A3 /* CatFactsManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactsManger.swift; sourceTree = "<group>"; };
+		51F82C302A9AD8950075A8A3 /* CatFact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFact.swift; sourceTree = "<group>"; };
+		51F82C352A9AE20D0075A8A3 /* MEOW.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = MEOW.m4a; sourceTree = "<group>"; };
+		51F82C572A9AE97C0075A8A3 /* CatBounceScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CatBounceScreen.storyboard; sourceTree = "<group>"; };
+		51F82C592A9AE9C50075A8A3 /* CatBounceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatBounceViewController.swift; sourceTree = "<group>"; };
+		51F82C5B2A9C443C0075A8A3 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
+		51F82C682A9C45BF0075A8A3 /* CatDetectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatDetectionView.swift; sourceTree = "<group>"; };
+		51F82C6A2A9C48640075A8A3 /* CatDetectionManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatDetectionManger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51F82C342A9AE1200075A8A3 /* Subsonic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,12 +77,11 @@
 		51F82C172A9AD0B20075A8A3 /* Tabby Cat */ = {
 			isa = PBXGroup;
 			children = (
-				51F82C182A9AD0B20075A8A3 /* Tabby_CatApp.swift */,
-				51F82C1A2A9AD0B20075A8A3 /* ContentView.swift */,
-				51F82C262A9AD0D80075A8A3 /* CatFactsView.swift */,
-				51F82C282A9AD0EC0075A8A3 /* CatImagesView.swift */,
-				51F82C2A2A9AD0FB0075A8A3 /* CatBounceView.swift */,
-				51F82C2C2A9AD1370075A8A3 /* CatGalleryView.swift */,
+				51F82C662A9C45420075A8A3 /* Main */,
+				51F82C5F2A9C448C0075A8A3 /* CatFact */,
+				51F82C602A9C44AD0075A8A3 /* CatImage */,
+				51F82C612A9C44B70075A8A3 /* CatBounce */,
+				51F82C652A9C452D0075A8A3 /* Sound */,
 				51F82C1C2A9AD0B30075A8A3 /* Assets.xcassets */,
 				51F82C1E2A9AD0B30075A8A3 /* Preview Content */,
 			);
@@ -77,6 +94,71 @@
 				51F82C1F2A9AD0B30075A8A3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		51F82C5F2A9C448C0075A8A3 /* CatFact */ = {
+			isa = PBXGroup;
+			children = (
+				51F82C302A9AD8950075A8A3 /* CatFact.swift */,
+				51F82C262A9AD0D80075A8A3 /* CatFactsView.swift */,
+				51F82C2E2A9AD38F0075A8A3 /* CatFactsManger.swift */,
+			);
+			path = CatFact;
+			sourceTree = "<group>";
+		};
+		51F82C602A9C44AD0075A8A3 /* CatImage */ = {
+			isa = PBXGroup;
+			children = (
+				51F82C282A9AD0EC0075A8A3 /* CatImagesView.swift */,
+			);
+			path = CatImage;
+			sourceTree = "<group>";
+		};
+		51F82C612A9C44B70075A8A3 /* CatBounce */ = {
+			isa = PBXGroup;
+			children = (
+				51F82C2A2A9AD0FB0075A8A3 /* CatBounceView.swift */,
+				51F82C572A9AE97C0075A8A3 /* CatBounceScreen.storyboard */,
+				51F82C592A9AE9C50075A8A3 /* CatBounceViewController.swift */,
+				51F82C632A9C45020075A8A3 /* CatGallery */,
+			);
+			path = CatBounce;
+			sourceTree = "<group>";
+		};
+		51F82C632A9C45020075A8A3 /* CatGallery */ = {
+			isa = PBXGroup;
+			children = (
+				51F82C2C2A9AD1370075A8A3 /* CatGalleryView.swift */,
+				51F82C672A9C459B0075A8A3 /* CatDetection */,
+			);
+			path = CatGallery;
+			sourceTree = "<group>";
+		};
+		51F82C652A9C452D0075A8A3 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				51F82C352A9AE20D0075A8A3 /* MEOW.m4a */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		51F82C662A9C45420075A8A3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				51F82C182A9AD0B20075A8A3 /* Tabby_CatApp.swift */,
+				51F82C1A2A9AD0B20075A8A3 /* ContentView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		51F82C672A9C459B0075A8A3 /* CatDetection */ = {
+			isa = PBXGroup;
+			children = (
+				51F82C682A9C45BF0075A8A3 /* CatDetectionView.swift */,
+				51F82C6A2A9C48640075A8A3 /* CatDetectionManger.swift */,
+				51F82C5B2A9C443C0075A8A3 /* MobileNetV2.mlmodel */,
+			);
+			path = CatDetection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +177,9 @@
 			dependencies = (
 			);
 			name = "Tabby Cat";
+			packageProductDependencies = (
+				51F82C332A9AE1200075A8A3 /* Subsonic */,
+			);
 			productName = "Tabby Cat";
 			productReference = 51F82C152A9AD0B20075A8A3 /* Tabby Cat.app */;
 			productType = "com.apple.product-type.application";
@@ -123,6 +208,9 @@
 				Base,
 			);
 			mainGroup = 51F82C0C2A9AD0B20075A8A3;
+			packageReferences = (
+				51F82C322A9AE1200075A8A3 /* XCRemoteSwiftPackageReference "Subsonic" */,
+			);
 			productRefGroup = 51F82C162A9AD0B20075A8A3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +226,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				51F82C202A9AD0B30075A8A3 /* Preview Assets.xcassets in Resources */,
+				51F82C582A9AE97C0075A8A3 /* CatBounceScreen.storyboard in Resources */,
 				51F82C1D2A9AD0B30075A8A3 /* Assets.xcassets in Resources */,
+				51F82C362A9AE20D0075A8A3 /* MEOW.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,11 +239,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51F82C2F2A9AD38F0075A8A3 /* CatFactsManger.swift in Sources */,
 				51F82C2D2A9AD1370075A8A3 /* CatGalleryView.swift in Sources */,
 				51F82C1B2A9AD0B20075A8A3 /* ContentView.swift in Sources */,
+				51F82C692A9C45BF0075A8A3 /* CatDetectionView.swift in Sources */,
+				51F82C6B2A9C48640075A8A3 /* CatDetectionManger.swift in Sources */,
 				51F82C2B2A9AD0FB0075A8A3 /* CatBounceView.swift in Sources */,
 				51F82C272A9AD0D80075A8A3 /* CatFactsView.swift in Sources */,
 				51F82C192A9AD0B20075A8A3 /* Tabby_CatApp.swift in Sources */,
+				51F82C312A9AD8950075A8A3 /* CatFact.swift in Sources */,
+				51F82C5A2A9AE9C50075A8A3 /* CatBounceViewController.swift in Sources */,
+				51F82C5C2A9C443C0075A8A3 /* MobileNetV2.mlmodel in Sources */,
 				51F82C292A9AD0EC0075A8A3 /* CatImagesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,6 +449,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		51F82C322A9AE1200075A8A3 /* XCRemoteSwiftPackageReference "Subsonic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/Subsonic";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		51F82C332A9AE1200075A8A3 /* Subsonic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 51F82C322A9AE1200075A8A3 /* XCRemoteSwiftPackageReference "Subsonic" */;
+			productName = Subsonic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 51F82C0D2A9AD0B20075A8A3 /* Project object */;
 }
